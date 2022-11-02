@@ -19,9 +19,9 @@ const HeaderSection = () => {
         className={`hidden md:overflow-hidden py-10 px-[50px] lg:px-[155px] z-20 md:flex flex-row justify-between items-center left-0 top-0 right-0 fixed h-16 text-black`}
       >
         <div className=" flex ">
-          <div className=" ml-2 mr-10">
+          <a alt="" href="/" className=" ml-2 mr-10">
             <img alt="" className="w-[70px] h-[70px] " src={logo1} />
-          </div>
+          </a>
           <ul className=" w-4/12 items-center flex items-center justify-between">
             <li className="text-white mx-2 transition-opacity hover:text-[#006B38FF] transation duration-duration-1000 ease-in ">
               {" "}

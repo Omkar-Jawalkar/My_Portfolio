@@ -41,7 +41,7 @@ const FirstSection = () => {
         <img
           src={firstSectionImg}
           alt=""
-          className="  w-[700px] h-[350px] mt-6 md:mt-20 scale-x-[-1] "
+          className="  md:w-[700px] md:h-[350px] mt-6 md:mt-20 scale-x-[-1] "
         ></img>
       </div>
     </div>
