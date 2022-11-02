@@ -1,5 +1,4 @@
 import React from "react";
-import Socials from "./DownSection/Socials";
 import { MdEmail } from "react-icons/md";
 
 const Footer = () => {

@@ -41,13 +41,8 @@ const FirstSection = () => {
         <img
           src={firstSectionImg}
           className="  w-[700px] h-[350px] mt-6 md:mt-20 scale-x-[-1] "
-          alt="My image"
         ></img>
       </div>
-
-
-
-      
     </div>
   );
 };

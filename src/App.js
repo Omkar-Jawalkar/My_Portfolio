@@ -7,8 +7,7 @@ import HeaderSection from "./Components/HeaderSection";
 import Project from "./Components/Project";
 import SkillSection from "./Components/SkillSection";
 import Footer from "./Components/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import { BrowserRouter as Router } from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css";

@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../Assets/logo.png";
 import logo1 from "../Assets/logo1.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
@@ -21,7 +20,7 @@ const HeaderSection = () => {
       >
         <div className=" flex ">
           <div className=" ml-2 mr-10">
-            <img className="w-[70px] h-[70px] " src={logo1} />
+            <img alt="" className="w-[70px] h-[70px] " src={logo1} />
           </div>
           <ul className=" w-4/12 items-center flex items-center justify-between">
             <li className="text-white mx-2 transition-opacity hover:text-[#006B38FF] transation duration-duration-1000 ease-in ">
@@ -75,7 +74,7 @@ const HeaderSection = () => {
 
       <div className=" md:hidden flex mx-6 justify-between items-center flex-row">
         <div className=" absolute top-0 sm:left-9 ">
-          <img className="w-[70px] h-[70px] " src={logo1} />
+          <img className="w-[70px] h-[70px] " alt="" src={logo1} />
         </div>
 
         <div>

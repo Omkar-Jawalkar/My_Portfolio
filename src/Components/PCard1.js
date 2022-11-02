@@ -1,14 +1,9 @@
 import React from "react";
-import image from "../Assets/lofigen.png";
 const PCard1 = (props) => {
   return (
     <div data-aos="flip-right" className="flex-1 flex flex-col my-10 ">
       <div>
-        <img
-          className="mt-0 mx-6 p-4 w-11/12 "
-          src={props.info.image}
-          alt="Image"
-        />
+        <img className="mt-0 mx-6 p-4 w-11/12 " src={props.info.image} alt="" />
       </div>
 
       {console.log("This is props", props)}

@@ -2,8 +2,6 @@ import React from "react";
 import InvizButton from "./InvizButton";
 
 const SkillCard = (props) => {
-  const bSkills = ["React", "Mongo DB", "Express.js", "Node.js", "BootStrap"];
-
   return (
     <div
       data-aos="zoom-in"
@@ -13,6 +11,7 @@ const SkillCard = (props) => {
         <img
           className=" border rounded-full w-16 h-16 "
           src={props.data.image}
+          alt=""
         />
 
         <div className="flex flex-col">

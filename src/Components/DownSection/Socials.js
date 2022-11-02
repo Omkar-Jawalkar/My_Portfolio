@@ -3,7 +3,6 @@ import { AiFillGithub } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 import { SiGeeksforgeeks } from "react-icons/si";
-import { Navigate } from "react-router-dom";
 
 const Socials = () => {
   return (
@@ -22,7 +21,7 @@ const Socials = () => {
         <a href="https://www.linkedin.com/in/omkar-jawalkar-68b658208/">
           <AiFillLinkedin className="mx-2 h-10 w-10 cursor-pointer" />
         </a>
-        <a href="">
+        <a>
           <AiFillTwitterCircle className="mx-2 h-10 w-10 cursor-pointer" />
         </a>
         <a href="https://auth.geeksforgeeks.org/user/omkarjawalkar234/practice/">
