@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
 import PCard1 from "./PCard1";
 import PCard2 from "./PCard2";
 import { Projects } from "../data";

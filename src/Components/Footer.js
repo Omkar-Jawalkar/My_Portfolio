@@ -14,7 +14,7 @@ const Footer = () => {
         <span className=" mr-2 pt-1 ">omkarjawalkar234@gmail.com</span>{" "}
       </a>
       <div className="text-center pb-9 pt-2 text-white">
-        Copyright &copy; Omkar Jawalkar. All Rights Reserved
+        Copyright &copy; Omkar Jawalkar
       </div>
     </div>
   );
