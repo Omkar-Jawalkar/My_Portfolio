@@ -1,8 +1,9 @@
 import React from "react";
 import logo1 from "../Assets/logo1.png";
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineLinkedin } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
 import { HashLink } from "react-router-hash-link";
+import PopupButton from "./SomeButton/PopupButton";
 import Popup from "reactjs-popup";
 
 const HeaderSection = () => {
@@ -67,7 +68,12 @@ const HeaderSection = () => {
             }
             modal
           >
-            <div>Popup content here !!</div>
+            <div className="flex flex-col">
+              <div className="text-xl border-b-2">Lets Connect 🤝 </div>
+              <div className="flex flex-col">
+                <PopupButton emoji={<AiOutlineLinkedin />} name="Linkedin" />
+              </div>
+            </div>
           </Popup>
         </div>
       </div>

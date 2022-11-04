@@ -9,7 +9,7 @@ const PCard2 = (props) => {
       <div className="text-center pt-4 text-[35px] font-light">
         {props.info.name}
       </div>
-      <p className="text-lg px-12 pt-5 ">
+      <p className="text-lg pl-8 pr-4 md:px-12 pt-5 ">
         <ul className="list-disc">
           {props.info.desc.map((desc, index) => (
             <li className="py-3 " key={index}>

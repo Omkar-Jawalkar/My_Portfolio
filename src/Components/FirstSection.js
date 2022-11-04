@@ -1,6 +1,7 @@
 import React from "react";
 import firstSectionImg from "../Assets/firstSectionImg.png";
 import resume from "../Assets/resume.pdf";
+import { FaDownload } from "react-icons/fa";
 
 const FirstSection = () => {
   return (
@@ -20,7 +21,7 @@ const FirstSection = () => {
           scrambled it to make a type specimen book. It has survived not only
         </p>
 
-        <div className="mb-6">
+        <div className="mb-6 ">
           <a
             href={resume}
             download="Omkar_Jawalkar_Resume"
@@ -29,7 +30,12 @@ const FirstSection = () => {
             hover:text-[#101820FF] hover:border-[#101820FF] transation
             duration-300 hover:text-md hover:font-bold active:text-slate-500 "
           >
-            My Resume
+            <div className="flex">
+              <span className="mt-1 mr-2 text-md">
+                <FaDownload />
+              </span>
+              <span>My Resume</span>
+            </div>
           </a>
         </div>
       </div>

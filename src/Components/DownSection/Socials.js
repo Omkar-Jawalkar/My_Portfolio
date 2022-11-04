@@ -12,19 +12,39 @@ const Socials = () => {
         className=" flex  sm:mx-10 md:mx-20 text-slate-200 lg:mx-30  justify-around py-1"
       >
         {" "}
-        <a href="https://github.com/Omkar-Jawalkar">
+        <a
+          href="https://github.com/Omkar-Jawalkar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <AiFillGithub className="mx-2 h-11 w-11 cursor-pointer" />
         </a>
-        <a href="https://www.instagram.com/omkar_jawalkar/">
+        <a
+          href="https://www.instagram.com/omkar_jawalkar/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BsInstagram className="mx-2 h-10 w-10 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/omkar-jawalkar-68b658208/">
+        <a
+          href="https://www.linkedin.com/in/omkar-jawalkar-68b658208/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <AiFillLinkedin className="mx-2 h-10 w-10 cursor-pointer" />
         </a>
-        <a href="https://twitter.com/omkar_jawalkar">
+        <a
+          href="https://twitter.com/omkar_jawalkar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <AiFillTwitterCircle className="mx-2 h-10 w-10 cursor-pointer" />
         </a>
-        <a href="https://auth.geeksforgeeks.org/user/omkarjawalkar234/practice/">
+        <a
+          href="https://auth.geeksforgeeks.org/user/omkarjawalkar234/practice/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <SiGeeksforgeeks className="mx-2 h-11 w-11 cursor-pointer" />
         </a>
       </div>
