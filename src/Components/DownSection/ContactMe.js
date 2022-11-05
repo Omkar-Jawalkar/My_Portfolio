@@ -34,7 +34,7 @@ const ContactMe = () => {
           console.log("THISSSSSSSSSSS", res);
           console.log("THISSSSSSSSSSS issssss dataaaa", res.data);
           setDisplayMessage("Message sent successfully");
-          toast(displayMessage, {
+          toast("Message sent successfully", {
             type: "success",
           });
           console.log("Message :", res.data);
@@ -42,7 +42,7 @@ const ContactMe = () => {
           console.log("THISSSSSSSSSSS", res);
           console.log("THISSSSSSSSSSS issss datatata", res.data);
           setDisplayMessage("Message not sent");
-          toast(displayMessage, {
+          toast("Message not sent", {
             type: "error",
           });
           console.log("Message :", res.data);
