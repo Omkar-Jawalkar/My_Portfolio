@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.my-popup-content {
+  border-radius: 10px;
+  background-color: white;
+}

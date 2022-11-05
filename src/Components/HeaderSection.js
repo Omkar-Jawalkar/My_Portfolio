@@ -1,11 +1,14 @@
 import React from "react";
 import logo1 from "../Assets/logo1.png";
-import { AiOutlineMenu, AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineMenu } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
 import { HashLink } from "react-router-hash-link";
 import PopupButton from "./SomeButton/PopupButton";
 import Popup from "reactjs-popup";
+import { letsConnect } from "../data";
+const contentStyle = { borderRadius: "15px", padding: "20px", width: "500px" };
 
+// console.log("This is letsConnect", letsConnect);
 const HeaderSection = () => {
   const [showMenu, setShowMenu] = React.useState(false);
 
@@ -67,11 +70,23 @@ const HeaderSection = () => {
               </button>
             }
             modal
+            {...{ contentStyle }}
           >
-            <div className="flex flex-col">
-              <div className="text-xl border-b-2">Lets Connect 🤝 </div>
-              <div className="flex flex-col">
-                <PopupButton emoji={<AiOutlineLinkedin />} name="Linkedin" />
+            <div className=" flex justify-center items-center flex-col">
+              <div className="text-xl border-b-2 pt-1 mb-2">
+                Lets Connect 🤝{" "}
+              </div>
+              <div className="flex justify-center items-center flex-col">
+                {letsConnect.map((connect, index) => (
+                  <div key={index}>
+                    {console.log("This is Connect obj", connect)}
+                    <PopupButton
+                      emoji={connect.emoji}
+                      name={connect.name}
+                      link={connect.link}
+                    />
+                  </div>
+                ))}
               </div>
             </div>
           </Popup>

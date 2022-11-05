@@ -4,7 +4,11 @@ import lofigen from "./Assets/lofigen.png";
 import virtualPainter from "./Assets/virtualPainter.jpg";
 
 import { FaNodeJs, FaReact } from "react-icons/fa";
-import { AiOutlineHtml5, AiFillGithub } from "react-icons/ai";
+import {
+  AiOutlineHtml5,
+  AiFillGithub,
+  AiOutlineLinkedin,
+} from "react-icons/ai";
 import {
   DiCss3Full,
   DiMongodb,
@@ -14,6 +18,9 @@ import {
 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiDjango, SiSqlite } from "react-icons/si";
+
+import { BsInstagram } from "react-icons/bs";
+import { AiFillTwitterCircle } from "react-icons/ai";
 
 export const InternshipExperience = [
   {
@@ -76,5 +83,29 @@ export const Projects = [
     ],
     image: virtualPainter,
     link: "https://github.com/Omkar-Jawalkar/Hand-Recognition-Model",
+  },
+];
+
+export const letsConnect = [
+  {
+    name: "Github",
+    emoji: <AiFillGithub />,
+    link: "https://github.com/Omkar-Jawalkar",
+  },
+
+  {
+    name: "Twitter",
+    emoji: <AiFillTwitterCircle />,
+    link: "https://twitter.com/omkar_jawalkar",
+  },
+  {
+    name: "Linked in",
+    emoji: <AiOutlineLinkedin />,
+    link: "https://www.linkedin.com/in/omkar-jawalkar-68b658208/",
+  },
+  {
+    name: "Instagram",
+    emoji: <BsInstagram />,
+    link: "https://www.instagram.com/omkar_jawalkar/",
   },
 ];

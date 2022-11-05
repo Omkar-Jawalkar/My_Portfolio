@@ -31,25 +31,22 @@ const ContactMe = () => {
       .post("https://omkar-jawalkar-portfolio.onrender.com/", user)
       .then((res) => {
         if (res.data === "success") {
+          console.log("THISSSSSSSSSSS", res);
+          console.log("THISSSSSSSSSSS issssss dataaaa", res.data);
           setDisplayMessage("Message sent successfully");
           toast(displayMessage, {
             type: "success",
           });
           console.log("Message :", res.data);
         } else {
+          console.log("THISSSSSSSSSSS", res);
+          console.log("THISSSSSSSSSSS issss datatata", res.data);
           setDisplayMessage("Message not sent");
           toast(displayMessage, {
             type: "error",
           });
           console.log("Message :", res.data);
         }
-      })
-      .catch((err) => {
-        console.log("Useerrrr : ", user);
-        console.log("Message error", err.message);
-
-        setDisplayMessage("Message Failed to send");
-        toast(displayMessage, { type: "error" });
       });
   };
 
