@@ -14,14 +14,22 @@ const FirstSection = () => {
           Junior React Developer
         </div>
 
-        <p className="mx-20 text-md my-6 text-white">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
+        <p className="mx-20 text-[17px] my-6 text-white">
+          I love building{" "}
+          <span className="underline text-black ">web applications</span> 👨‍💻.
+          I've a keen interest in{" "}
+          <span className="underline text-black ">
+            {" "}
+            debugging and refining websites ,
+          </span>
+          as it helps me to make them better and more efficient to use 💡. Well,
+          if you need a web application for your online business or a website
+          for a college project ,{" "}
+          <span className="underline text-black "> I've got your back</span>
+          🙋‍♂️🎉
         </p>
 
-        <div className="mb-6 ">
+        <div className="mb-6 mt-2 ">
           <a
             href={resume}
             download="Omkar_Jawalkar_Resume"
