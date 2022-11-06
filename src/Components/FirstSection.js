@@ -14,7 +14,7 @@ const FirstSection = () => {
           Junior React Developer
         </div>
 
-        <p className="mx-20 text-[17px] my-6 text-white">
+        <p className=" mx-10 md:mx-20  text-[17px] my-6 text-white">
           I love building{" "}
           <span className="underline text-black ">web applications</span> 👨‍💻.
           I've a keen interest in{" "}
