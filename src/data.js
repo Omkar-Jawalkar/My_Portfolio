@@ -15,11 +15,14 @@ import {
   DiMysql,
   DiJava,
   DiPython,
+  DiPhp,
+  DiHeroku,
 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiDjango, SiSqlite } from "react-icons/si";
+import { SiDjango, SiSqlite, SiTailwindcss } from "react-icons/si";
 
-import { BsInstagram } from "react-icons/bs";
+import { BsInstagram, BsWordpress } from "react-icons/bs";
+
 import { AiFillTwitterCircle } from "react-icons/ai";
 
 export const InternshipExperience = [
@@ -53,11 +56,15 @@ export const TechIcons = [
   { name: "Mongo DB", symbol: <DiMongodb className="mx-2 h-11 w-11" /> },
   { name: "MySQL", symbol: <DiMysql className="mx-2 h-11 w-11" /> },
   { name: "Java", symbol: <DiJava className="mx-2 h-11 w-11" /> },
+  { name: "Php", symbol: <DiPhp className="mx-2 h-11 w-11" /> },
   { name: "Python", symbol: <DiPython className="mx-2 h-11 w-11" /> },
   { name: "JS", symbol: <IoLogoJavascript className="mx-2 h-11 w-11" /> },
+  { name: "Wordpress", symbol: <BsWordpress className="mx-2 h-11 w-11" /> },
   { name: "Django", symbol: <SiDjango className="mx-2 h-11 w-11" /> },
   { name: "SQLite", symbol: <SiSqlite className="mx-2 h-11 w-11" /> },
   { name: "Github", symbol: <AiFillGithub className="mx-2 h-11 w-11" /> },
+  { name: "Tailwindcss", symbol: <SiTailwindcss className="mx-2 h-11 w-11" /> },
+  { name: "Heroku", symbol: <DiHeroku className="mx-2 h-11 w-11" /> },
 ];
 
 export const Projects = [

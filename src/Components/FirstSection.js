@@ -11,7 +11,7 @@ const FirstSection = () => {
           Hey, I'm Omkar Jawalkar
         </div>
         <div className=" pl-52 max-xl:p-0 font-mono text-lg font-bold  text-slate-900">
-          Junior React Developer
+          Full Stack Web Developer
         </div>
 
         <p className=" mx-10 md:mx-20  text-[17px] my-6 text-white">
