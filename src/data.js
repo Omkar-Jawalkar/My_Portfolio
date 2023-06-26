@@ -2,6 +2,8 @@ import virtusa from "./Assets/virtusa.png";
 import blockatena from "./Assets/blockatena.png";
 import lofigen from "./Assets/lofigen.png";
 import virtualPainter from "./Assets/virtualPainter.jpg";
+import quizzup from "./Assets/quizzup.png";
+import activityManager from "./Assets/activity_manager.png";
 
 import { FaNodeJs, FaReact } from "react-icons/fa";
 import {
@@ -68,6 +70,28 @@ export const TechIcons = [
 ];
 
 export const Projects = [
+  {
+    name: "Quizzup",
+    desc: [
+      "  Quizzup lets you to create interactive quizzes and share it with your friends and family",
+      "Implemented using Nextjs and Firebase",
+      "✨ Interactive UI",
+      "🙋‍♂️ Can be used for school and colleges",
+    ],
+    image: quizzup,
+    link: "https://quiz-app-omkar.vercel.app/",
+  },
+  {
+    name: "Activity Manager",
+    desc: [
+      " Our Activity Manager which allows you to add, delete and update your daily activities",
+      "Implemented using Next JS and Firebase",
+      "✨ Plan your day with Activity Manager",
+      "🙋‍♂️ For all Generation",
+    ],
+    image: activityManager,
+    link: "https://activitymanager.vercel.app/",
+  },
   {
     name: "Lofigen",
     desc: [

@@ -20,6 +20,16 @@ const Project = () => {
         <PCard2 info={Projects[1]} />
         <PCard1 info={Projects[1]} />
       </div>
+      <div className="border-b-2 my-10  mx-6 sm:mx-12"></div>
+      <div className="flex flex-col xl:flex-row">
+        <PCard1 info={Projects[2]} />
+        <PCard2 info={Projects[2]} />
+      </div>
+      <div className="border-b-2 my-10  mx-6 sm:mx-12"></div>
+      <div className="flex  flex-col xl:flex-row ">
+        <PCard2 info={Projects[3]} />
+        <PCard1 info={Projects[3]} />
+      </div>
     </div>
   );
 };
