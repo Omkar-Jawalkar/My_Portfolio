@@ -19,7 +19,7 @@ const HeaderSection = () => {
     return (
         <div className="flex justify-center md:items-center flex-col">
             <h2 className="text-black bg-white  text-center text-md md:text-lg my-4 p-4 border w-full">
-                Portfolio is getting new look, Stay Tuned ⚡️🚀
+                Omkar's Portfolio is getting new look, Stay Tuned ⚡️🚀
                 <br />
                 Untill then explore my{" "}
                 <a
